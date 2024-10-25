@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="output.css">
+
+</head>
+<body class="bg-[#1a1a1a] flex justify-center items-center min-h-screen font-sans font-bold ">
+    <div class="bg-[#2c2c2c] rounded-lg p-8 shadow-2xl max-w-sm w-full container" >
+        <h1 class="text-white text-center text-4xl m-3">To-Do List</h1>
+         <div id="todo-input" class="flex gap-4 p-2">
+            <input type="text" class="bg-[#1a1a1a] text-white p-2 rounded-lg text-center" placeholder="Add a new task...">
+            <button id="add-task-btn" type="submit"  class=" bg-purple-900 text-white rounded-lg w-full p-6 shadow-2xl hover:bg-purple-800 ">Add Task</button>
+    </div>
+    <ul id="todo-list" class="text-white text flex gap-4">
+        <!-- <li class="bg-[#1a1a1a] w-full flex gap-2 p-2 rounded-md text-center"></li>
+        <button class="bg-red-800 rounded-md p-2 shadow-2xl hover:bg-red-600">delete</button> -->
+    </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
